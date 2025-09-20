@@ -14,6 +14,8 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Heart, Bell, Settings, LogOut, User, HelpCircle, Stethoscope } from "lucide-react"
 import Link from "next/link"
+import { useRouter } from "next/navigation"
+import { clearClinicalSession } from "@/lib/clinical-auth"
 
 interface ClinicalNavigationProps {
   provider: {
@@ -25,6 +27,13 @@ interface ClinicalNavigationProps {
 }
 
 export function ClinicalNavigation({ provider }: ClinicalNavigationProps) {
+  const router = useRouter()
+
+  const handleLogout = () => {
+    clearClinicalSession()
+    router.push('/auth/login')
+  }
+
   return (
     <nav className="border-b bg-card/50 backdrop-blur-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
@@ -79,7 +88,7 @@ export function ClinicalNavigation({ provider }: ClinicalNavigationProps) {
                   <span>Help & Support</span>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem>
+                <DropdownMenuItem onClick={handleLogout}>
                   <LogOut className="mr-2 h-4 w-4" />
                   <span>Log out</span>
                 </DropdownMenuItem>

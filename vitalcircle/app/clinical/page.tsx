@@ -9,6 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { AlertTriangle, Search, Calendar, Plus } from "lucide-react"
+import Link from "next/link"
 import { ClinicalNavigation } from "@/components/clinical-navigation"
 import { PatientRiskTable } from "@/components/patient-risk-table"
 import { PatientDetailModal } from "@/components/patient-detail-modal"
@@ -161,6 +162,12 @@ export default function ClinicalDashboard() {
             <Button variant="outline" size="sm">
               <Calendar className="w-4 h-4 mr-2" />
               Today's Schedule
+            </Button>
+            <Button size="sm" asChild>
+              <Link href="/clinical/search">
+                <Search className="w-4 h-4 mr-2" />
+                Patient Search
+              </Link>
             </Button>
             <Button size="sm">
               <Plus className="w-4 h-4 mr-2" />

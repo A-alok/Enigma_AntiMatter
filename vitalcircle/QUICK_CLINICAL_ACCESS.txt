@@ -1,0 +1,44 @@
+🏥 VITALCIRCLE CLINICAL CREDENTIALS - QUICK ACCESS
+
+═══════════════════════════════════════════════════════════
+
+FASTEST LOGIN (Recommended for Demo):
+───────────────────────────────────────────────
+1. Go to: http://localhost:3000/auth/login
+2. Click "Clinician" tab
+3. Click "Show Test Accounts" button
+4. Click "Use" next to Dr. Emily Chen
+5. Click "Sign In"
+
+MANUAL LOGIN (Primary Account):
+───────────────────────────────────────────────
+Email: dr.emily.chen@citymedical.com
+Password: clinical123
+License: MD-12345
+
+OTHER TEST ACCOUNTS:
+───────────────────────────────────────────────
+Dr. Sarah Wilson (Cardiology):
+- Email: dr.sarah.wilson@citymedical.com
+- Password: clinical456
+- License: MD-67890
+
+Dr. Michael Brown (Internal Medicine):
+- Email: dr.michael.brown@citymedical.com
+- Password: clinical789
+- License: MD-11223
+
+Kelly Martinez, RN (Nursing):
+- Email: nurse.kelly@citymedical.com
+- Password: nurse123
+- License: RN-44556
+
+DEMO FLOW:
+───────────────────────────────────────────────
+1. Login → Clinical Dashboard
+2. Search patient "VC-2025-001234" 
+3. View Sarah Johnson's detailed profile
+4. Check timeline, vitals, medications
+5. Try searching other patients
+
+═══════════════════════════════════════════════════════════
