@@ -1,0 +1,38 @@
+{
+  "patient_assessment": {
+    "assessment_date": "2025-09-20T16:42:39.476575",
+    "system_version": "2.0",
+    "patient_profile": {
+      "age": 45.0,
+      "gender": 1,
+      "glucose": 74.20000000000002,
+      "blood_pressure_systolic": 140.0,
+      "blood_pressure_diastolic": 90.0,
+      "cholesterol": 135.49333333333334,
+      "hdl": 117.5,
+      "heart_rate": 85.58333333333333,
+      "bmi": 47.333333333333336
+    },
+    "risk_assessment": {
+      "diabetes": {
+        "risk_score": 0.2757509881561142,
+        "risk_category": "Moderate Risk",
+        "risk_percentage": 27.57509881561142,
+        "confidence": 0.4828185153071173
+      }
+    },
+    "recommendations": {
+      "immediate_actions": [],
+      "lifestyle_modifications": [
+        "Increase physical activity to 150+ minutes/week",
+        "Maintain healthy weight (BMI 18.5-24.9)",
+        "Follow balanced, low-sugar diet"
+      ],
+      "medical_consultations": [],
+      "monitoring_schedule": [
+        "Annual comprehensive health screening",
+        "HbA1c testing every 6 months"
+      ]
+    }
+  }
+}

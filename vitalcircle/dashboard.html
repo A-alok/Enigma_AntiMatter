@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - VitalCircle</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="dashboard">
+    <!-- Navigation -->
+    <nav class="dashboard-nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <div class="logo">
+                        <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <span class="brand-name">VitalCircle</span>
+                </div>
+                <div class="nav-links">
+                    <span id="userWelcome" style="color: var(--text-secondary); margin-right: 1rem;"></span>
+                    <a href="community.html" class="nav-link">Community</a>
+                    <a href="predictions.html" class="nav-link">Predictions</a>
+                    <button onclick="logout()" class="btn btn-outline" style="padding: 0.5rem 1rem;">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dashboard Content -->
+    <div class="dashboard-content">
+        <div class="container">
+            <!-- Risk Score Section -->
+            <div class="risk-score">
+                <h2 style="margin-bottom: 1rem;">Your Current Risk Score</h2>
+                <div class="risk-score-value risk-low" id="riskScore">7.2</div>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">Low Risk - Stable Condition</p>
+                <div style="background: var(--secondary); padding: 1rem; border-radius: var(--radius-sm); margin-top: 1rem;">
+                    <p style="margin: 0; font-size: 0.875rem;">
+                        <strong>AI Prediction:</strong> Your vitals show stable patterns. Continue current medication schedule and maintain healthy lifestyle habits.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" style="color: var(--success);">98%</div>
+                    <div class="stat-label">Medication Adherence</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" style="color: var(--primary);">15</div>
+                    <div class="stat-label">Days Stable</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" style="color: var(--warning);">3</div>
+                    <div class="stat-label">Pending Actions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" style="color: var(--chart-2);">8.5</div>
+                    <div class="stat-label">Wellness Score</div>
+                </div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; margin-top: 2rem;">
+                <!-- Vitals Chart -->
+                <div style="background: var(--surface); border-radius: var(--radius); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+                    <h3 style="margin-bottom: 1rem;">Vitals Trend (Last 7 Days)</h3>
+                    <canvas id="vitalsChart" width="400" height="200"></canvas>
+                </div>
+
+                <!-- Recommendations -->
+                <div style="background: var(--surface); border-radius: var(--radius); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+                    <h3 style="margin-bottom: 1rem;">Today's Recommendations</h3>
+                    <div style="space-y: 1rem;">
+                        <div style="padding: 1rem; background: rgba(16, 185, 129, 0.1); border-radius: var(--radius-sm); margin-bottom: 1rem;">
+                            <div style="font-weight: 600; color: var(--success); margin-bottom: 0.5rem;">Medication Reminder</div>
+                            <p style="margin: 0; font-size: 0.875rem;">Take your evening medication in 2 hours</p>
+                        </div>
+                        <div style="padding: 1rem; background: rgba(59, 130, 246, 0.1); border-radius: var(--radius-sm); margin-bottom: 1rem;">
+                            <div style="font-weight: 600; color: var(--primary); margin-bottom: 0.5rem;">Activity Suggestion</div>
+                            <p style="margin: 0; font-size: 0.875rem;">Take a 10-minute walk to help with circulation</p>
+                        </div>
+                        <div style="padding: 1rem; background: rgba(245, 158, 11, 0.1); border-radius: var(--radius-sm);">
+                            <div style="font-weight: 600; color: var(--warning); margin-bottom: 0.5rem;">Nutrition Tip</div>
+                            <p style="margin: 0; font-size: 0.875rem;">Your sodium intake was high yesterday. Try low-sodium options today</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div style="background: var(--surface); border-radius: var(--radius); padding: 1.5rem; box-shadow: var(--shadow-sm); margin-top: 2rem;">
+                <h3 style="margin-bottom: 1rem;">Quick Actions</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                    <button class="btn btn-primary" onclick="logVitals()">Log Today's Vitals</button>
+                    <button class="btn btn-outline" onclick="viewHistory()">View History</button>
+                    <button class="btn btn-outline" onclick="contactDoctor()">Contact Doctor</button>
+                    <button class="btn btn-outline" onclick="joinCommunity()">Join Community</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

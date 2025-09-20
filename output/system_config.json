@@ -1,5 +1,5 @@
 {
-  "setup_date": "2025-09-20T12:35:57.198707",
+  "setup_date": "2025-09-20T16:40:21.337920",
   "connectivity_results": {
     "working": [
       "diabetes:pima_indians_uci",
@@ -21,9 +21,12 @@
     "total_sources": 13
   },
   "trained_models": [
+    "diabetes",
     "heart_disease",
+    "kidney_disease",
     "stroke",
-    "hypertension"
+    "hypertension",
+    "copd"
   ],
   "config": {
     "supported_diseases": "['diabetes', 'heart_disease', 'kidney_disease', 'stroke', 'hypertension', 'copd']",
