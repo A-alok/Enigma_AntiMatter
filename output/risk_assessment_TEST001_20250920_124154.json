@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "report_type": "Chronic Disease Risk Assessment",
+    "system_version": "2.0",
+    "generated_date": "2025-09-20T12:41:54.288036",
+    "patient_id": "TEST001",
+    "reports_processed": 1,
+    "system_capabilities": {
+      "diseases_supported": 6,
+      "data_sources": [
+        "kaggle",
+        "direct_url",
+        "cdc",
+        "who"
+      ],
+      "file_formats": [
+        "pdf",
+        "docx",
+        "txt"
+      ]
+    }
+  },
+  "patient_data": {
+    "extracted_profile": {
+      "age": 45.0,
+      "gender": 1,
+      "glucose": 85.39999999999999,
+      "blood_pressure_systolic": 140.0,
+      "blood_pressure_diastolic": 90.0,
+      "cholesterol": 146.21428571428572,
+      "hdl": 77.75,
+      "heart_rate": 110.0,
+      "bmi": 82.84
+    },
+    "source_reports": [
+      "test_patient_report.txt"
+    ],
+    "extraction_quality": {
+      "score": 0.6,
+      "level": "Good",
+      "extracted_fields": 9,
+      "total_possible": 15,
+      "missing_key_data": []
+    }
+  },
+  "risk_assessments": {
+    "heart_disease": {
+      "risk_score": 0.7863492063492065,
+      "risk_category": "High Risk",
+      "risk_percentage": 78.63492063492065,
+      "confidence": 0.8
+    }
+  },
+  "clinical_insights": [
+    "Average risk score is high (0.79). Immediate medical attention and lifestyle interventions strongly recommended."
+  ],
+  "recommendations": {
+    "immediate_actions": [
+      "Schedule urgent medical consultation for high-risk conditions: heart_disease"
+    ],
+    "lifestyle_modifications": [
+      "Adopt low-glycemic index diet",
+      "Implement structured exercise program (150+ minutes/week)",
+      "Monitor blood glucose regularly"
+    ],
+    "medical_consultations": [
+      "Endocrinologist consultation"
+    ],
+    "monitoring_schedule": [
+      "HbA1c every 3 months"
+    ],
+    "preventive_measures": []
+  },
+  "follow_up_plan": {
+    "1_week": [],
+    "1_month": [
+      "Primary care physician consultation"
+    ],
+    "3_months": [
+      "Risk factor reassessment"
+    ],
+    "6_months": [
+      "Lifestyle intervention review"
+    ],
+    "1_year": []
+  },
+  "risk_summary": {
+    "overall_risk": "High",
+    "priority": "High",
+    "action_required": "Medical consultation within 1 month",
+    "max_risk_score": 0.7863492063492065,
+    "average_risk_score": 0.7863492063492065,
+    "diseases_assessed": 1,
+    "high_risk_conditions": 1
+  }
+}

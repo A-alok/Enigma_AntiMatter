@@ -1,0 +1,36 @@
+{
+  "setup_date": "2025-09-20T12:35:57.198707",
+  "connectivity_results": {
+    "working": [
+      "diabetes:pima_indians_uci",
+      "diabetes:diabetes_kaggle",
+      "diabetes:diabetes_prediction_dataset",
+      "heart_disease:heart_disease_kaggle",
+      "heart_disease:heart_failure_prediction",
+      "kidney_disease:kidney_disease_kaggle",
+      "stroke:stroke_prediction_kaggle",
+      "hypertension:hypertension_kaggle",
+      "copd:copd_kaggle"
+    ],
+    "failed": [
+      "heart_disease:cleveland_heart_disease",
+      "kidney_disease:kidney_disease_uci",
+      "stroke:stroke_data_github",
+      "hypertension:blood_pressure_github"
+    ],
+    "total_sources": 13
+  },
+  "trained_models": [
+    "heart_disease",
+    "stroke",
+    "hypertension"
+  ],
+  "config": {
+    "supported_diseases": "['diabetes', 'heart_disease', 'kidney_disease', 'stroke', 'hypertension', 'copd']",
+    "data_sources": "['kaggle', 'direct_url', 'cdc', 'who']",
+    "file_formats": "['pdf', 'docx', 'txt']",
+    "output_dir": "output",
+    "models_dir": "models",
+    "cache_dir": "dataset_cache"
+  }
+}

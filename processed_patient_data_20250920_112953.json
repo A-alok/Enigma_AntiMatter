@@ -1,0 +1,101 @@
+{
+  "individual_reports": [
+    {
+      "glucose": 74.20000000000002,
+      "hba1c": 94.6,
+      "cholesterol": 135.49333333333334,
+      "hdl": 117.5,
+      "ldl": 138.75,
+      "triglycerides": 140.275,
+      "creatinine": 54.175,
+      "urea": null,
+      "hemoglobin": 67.05,
+      "heart_rate": 85.58333333333333,
+      "bmi": 47.333333333333336,
+      "systolic": 140.0,
+      "diastolic": 90.0,
+      "age": 45,
+      "gender": "male",
+      "source_file": "sample_patient_report.txt",
+      "extraction_date": "2025-09-20T11:29:53.106859"
+    }
+  ],
+  "aggregated_data": {
+    "glucose": {
+      "latest": 74.20000000000002,
+      "average": 74.20000000000002,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "hba1c": {
+      "latest": 94.6,
+      "average": 94.6,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "cholesterol": {
+      "latest": 135.49333333333334,
+      "average": 135.49333333333334,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "hdl": {
+      "latest": 117.5,
+      "average": 117.5,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "ldl": {
+      "latest": 138.75,
+      "average": 138.75,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "triglycerides": {
+      "latest": 140.275,
+      "average": 140.275,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "creatinine": {
+      "latest": 54.175,
+      "average": 54.175,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "urea": null,
+    "hemoglobin": {
+      "latest": 67.05,
+      "average": 67.05,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "heart_rate": {
+      "latest": 85.58333333333333,
+      "average": 85.58333333333333,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "bmi": {
+      "latest": 47.333333333333336,
+      "average": 47.333333333333336,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "systolic": {
+      "latest": 140.0,
+      "average": 140.0,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "diastolic": {
+      "latest": 90.0,
+      "average": 90.0,
+      "trend": "stable",
+      "values_count": 1
+    },
+    "gender": "male",
+    "age": 45
+  },
+  "report_count": 1
+}

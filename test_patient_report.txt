@@ -1,0 +1,68 @@
+PATIENT MEDICAL REPORT
+=======================
+
+Patient ID: TEST001
+Name: John Smith
+Date of Birth: 1978-03-15
+Age: 45 years
+Gender: Male
+
+VITAL SIGNS & MEASUREMENTS
+--------------------------
+Blood Pressure: 140/90 mmHg (Elevated)
+Heart Rate: 85 bpm
+Weight: 85 kg
+Height: 175 cm
+BMI: 27.8 (Overweight)
+Temperature: 98.6°F
+
+LABORATORY RESULTS
+------------------
+Fasting Glucose: 125 mg/dL (Elevated)
+HbA1c: 6.2% (Pre-diabetic range)
+Total Cholesterol: 240 mg/dL (High)
+HDL Cholesterol: 35 mg/dL (Low)
+LDL Cholesterol: 160 mg/dL (High)
+Triglycerides: 225 mg/dL (High)
+Creatinine: 1.3 mg/dL (Slightly elevated)
+Hemoglobin: 13.5 g/dL (Normal)
+Sodium: 142 mEq/L (Normal)
+Potassium: 4.2 mEq/L (Normal)
+
+PULMONARY FUNCTION TESTS
+-------------------------
+FEV1: 75% predicted
+FVC: 82% predicted
+FEV1/FVC ratio: 0.68 (Mild obstruction)
+
+MEDICAL HISTORY
+---------------
+- Hypertension diagnosed 2 years ago
+- Family history of diabetes (father)
+- Family history of heart disease (mother)
+- Former smoker (quit 3 years ago, 20 pack-year history)
+- No previous stroke or heart attack
+- No known kidney disease
+
+CURRENT MEDICATIONS
+-------------------
+- Lisinopril 10mg daily for blood pressure
+- Metformin 500mg twice daily (recently started)
+
+CLINICAL ASSESSMENT
+-------------------
+Patient presents with multiple cardiovascular risk factors including:
+- Elevated blood pressure
+- Elevated glucose levels
+- Dyslipidemia
+- Overweight BMI
+- History of smoking
+
+Recommendations:
+- Continue current medications
+- Lifestyle modifications (diet, exercise)
+- Follow-up in 3 months
+- Consider additional cardiac evaluation
+
+Physician: Dr. Sarah Johnson, MD
+Date: 2024-01-15

@@ -1,0 +1,35 @@
+{
+  "assessment_metadata": {
+    "assessment_date": "2025-09-20T11:29:53.117828",
+    "patient_id": "Unknown",
+    "reports_processed": 1
+  },
+  "patient_profile": {
+    "age": 45.0,
+    "gender": 1,
+    "glucose": 74.20000000000002,
+    "blood_pressure_systolic": 140.0,
+    "blood_pressure_diastolic": 90.0,
+    "cholesterol": 135.49333333333334,
+    "hdl": 117.5,
+    "heart_rate": 85.58333333333333,
+    "bmi": 47.333333333333336
+  },
+  "risk_assessments": {
+    "diabetes": {
+      "risk_score": 0.11613884035907387,
+      "risk_category": "Low Risk",
+      "risk_percentage": 11.613884035907388
+    }
+  },
+  "recommendations": {
+    "lifestyle": [],
+    "monitoring": [],
+    "medical_consultation": []
+  },
+  "next_steps": [
+    "Continue current healthy lifestyle",
+    "Regular annual health check-ups",
+    "Stay informed about chronic disease prevention"
+  ]
+}

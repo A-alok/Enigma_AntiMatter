@@ -1,0 +1,34 @@
+
+    PATIENT MEDICAL REPORT
+    
+    Patient: John Doe
+    Age: 45 years
+    Gender: Male
+    Date: 2024-01-15
+    
+    VITAL SIGNS:
+    Blood Pressure: 140/90 mmHg
+    Heart Rate: 85 bpm
+    Weight: 85 kg
+    BMI: 28.5
+    
+    LABORATORY RESULTS:
+    Fasting Glucose: 126 mg/dl
+    HbA1c: 6.2%
+    Total Cholesterol: 240 mg/dl
+    HDL Cholesterol: 35 mg/dl
+    LDL Cholesterol: 160 mg/dl
+    Triglycerides: 200 mg/dl
+    Creatinine: 1.1 mg/dl
+    Hemoglobin: 14.5 g/dl
+    
+    CLINICAL NOTES:
+    Patient presents with elevated glucose levels and blood pressure.
+    Family history of diabetes and cardiovascular disease.
+    Currently experiencing mild fatigue and occasional chest discomfort.
+    
+    RECOMMENDATIONS:
+    - Lifestyle modifications
+    - Follow-up in 3 months
+    - Monitor glucose levels
+    
